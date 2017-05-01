@@ -41,7 +41,6 @@
     <Compile Include="Controls\StatusBar.xaml.cs">
       <DependentUpon>StatusBar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScaledDouble.cs" />
     <Compile Include="ILayoutService.cs" />

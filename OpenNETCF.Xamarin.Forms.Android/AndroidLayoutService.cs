@@ -13,7 +13,6 @@ namespace OpenNETCF.Platform.Droid
 
         public double GetScaledDouble(double fontSize)
         {
-            // 320 is chosen as an arbitrary "normal" dpi although 160 is considered normal in the Android docs
             return fontSize * s_widthScaleFactor;
         }
 

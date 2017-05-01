@@ -100,6 +100,7 @@
     <Compile Include="AndroidLayoutService.cs" />
     <Compile Include="ButtonExRenderer.cs" />
     <Compile Include="EntryExRenderer.cs" />
+    <Compile Include="Forms.cs" />
     <Compile Include="LabelExRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -116,6 +117,10 @@
     <ProjectReference Include="..\..\extensions\OpenNETCF.Extensions.PCL.csproj">
       <Project>{0ccfeee5-54e1-45f6-b699-d64ce5a36f00}</Project>
       <Name>OpenNETCF.Extensions.PCL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\shared\OpenNETCF.IoC\OpenNETCF.IoC.Xamarin.Forms.csproj">
+      <Project>{E2FEFCB7-D29F-47AD-BFE4-9DC02FEABF5D}</Project>
+      <Name>OpenNETCF.IoC.Xamarin.Forms</Name>
     </ProjectReference>
     <ProjectReference Include="..\Portable\OpenNETCF.Xamarin.Forms.csproj">
       <Project>{dd0c6e1f-1ab9-424e-b268-5ed036cb0072}</Project>

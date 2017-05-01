@@ -13,11 +13,11 @@ namespace OpenNETCF.Platform.Droid
         public LabelExRenderer()
         {
         }
-
+        
         protected override void OnElementChanged(ElementChangedEventArgs<Label> e)
         {
             base.OnElementChanged(e);
-
+            
             var newControl = e.NewElement as LabelEx;
 
             Typeface typeface;

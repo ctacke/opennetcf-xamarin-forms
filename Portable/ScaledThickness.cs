@@ -18,6 +18,8 @@ namespace OpenNETCF
         {
             if (s_layoutService == null)
             {
+                System.Diagnostics.Debug.WriteLine("ScaledThickness has no ILayoutService!");
+
                 var tc = new ThicknessTypeConverter();
                 return tc.ConvertFromInvariantString(Thickness);
             }

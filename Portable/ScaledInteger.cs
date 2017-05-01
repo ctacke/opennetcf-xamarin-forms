@@ -18,12 +18,12 @@ namespace OpenNETCF
         {
             if (s_layoutService == null)
             {
+                System.Diagnostics.Debug.WriteLine("ScaledInteger has no ILayoutService!");
+
                 return Size;
             }
 
             var scaled = s_layoutService.GetScaledInt32(Size);
-
-            System.Diagnostics.Debug.WriteLine(string.Format("Scaled size {0} => {1}", Size, scaled));
 
             return (int)scaled;
         }

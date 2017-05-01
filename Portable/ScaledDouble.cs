@@ -17,12 +17,12 @@ namespace OpenNETCF
         {
             if (s_layoutService == null)
             {
+                System.Diagnostics.Debug.WriteLine("ScaledDouble has no ILayoutService!");
+
                 return FontSize;
             }
 
             var scaled = s_layoutService.GetScaledDouble(FontSize);
-
-            System.Diagnostics.Debug.WriteLine(string.Format("Scaled font {0} => {1}", FontSize, scaled));
 
             return scaled;
         }
