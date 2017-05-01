@@ -5,8 +5,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ExportRenderer(typeof(EntryEx), typeof(OpenNETCF.Platform.Android.EntryExRenderer))]
-namespace OpenNETCF.Platform.Android
+[assembly: ExportRenderer(typeof(EntryEx), typeof(OpenNETCF.Platform.Droid.EntryExRenderer))]
+namespace OpenNETCF.Platform.Droid
 {
     public class EntryExRenderer : EntryRenderer
     {

@@ -6,8 +6,8 @@ using Xamarin.Forms.Platform.Android;
 
 using AWB = Android.Widget.Button; // due to 'Android' namespace collision
 
-[assembly: ExportRenderer(typeof(ButtonEx), typeof(OpenNETCF.Platform.Android.ButtonExRenderer))]
-namespace OpenNETCF.Platform.Android
+[assembly: ExportRenderer(typeof(ButtonEx), typeof(OpenNETCF.Platform.Droid.ButtonExRenderer))]
+namespace OpenNETCF.Platform.Droid
 {
     public class ButtonExRenderer : ButtonRenderer
     {

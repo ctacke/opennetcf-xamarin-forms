@@ -5,8 +5,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ExportRenderer(typeof(LabelEx), typeof(OpenNETCF.Platform.Android.LabelExRenderer))]
-namespace OpenNETCF.Platform.Android
+[assembly: ExportRenderer(typeof(LabelEx), typeof(OpenNETCF.Platform.Droid.LabelExRenderer))]
+namespace OpenNETCF.Platform.Droid
 {
     public class LabelExRenderer : LabelRenderer
     {

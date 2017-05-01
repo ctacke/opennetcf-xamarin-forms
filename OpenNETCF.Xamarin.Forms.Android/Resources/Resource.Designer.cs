@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("OpenNETCF.Platform.Android.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("OpenNETCF.Platform.Droid.Resource", IsApplication=false)]
 
-namespace OpenNETCF.Platform.Android
+namespace OpenNETCF.Platform.Droid
 {
 	
 	
