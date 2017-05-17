@@ -15,6 +15,3 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]
-
-[assembly: AssemblyVersion("1.0.16223.0")]
-[assembly: AssemblyFileVersion("1.0.16223.0")]

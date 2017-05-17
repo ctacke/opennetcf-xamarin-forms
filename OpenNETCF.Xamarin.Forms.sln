@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNETCF.Xamarin.Forms", "OpenNETCF.Xamarin.Forms\OpenNETCF.Xamarin.Forms.csproj", "{DD0C6E1F-1AB9-424E-B268-5ED036CB0072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNETCF.Xamarin.Forms.Android", "OpenNETCF.Xamarin.Forms.Android\OpenNETCF.Xamarin.Forms.Android.csproj", "{E09B41F3-31E7-4E2D-83AA-E74176BD28D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNETCF.Xamarin.Forms.iOS", "OpenNETCF.Xamarin.Forms.iOS\OpenNETCF.Xamarin.Forms.iOS.csproj", "{53B669DB-EA60-40E2-AF94-AE92E31E250B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0C6E1F-1AB9-424E-B268-5ED036CB0072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0C6E1F-1AB9-424E-B268-5ED036CB0072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0C6E1F-1AB9-424E-B268-5ED036CB0072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0C6E1F-1AB9-424E-B268-5ED036CB0072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09B41F3-31E7-4E2D-83AA-E74176BD28D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09B41F3-31E7-4E2D-83AA-E74176BD28D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09B41F3-31E7-4E2D-83AA-E74176BD28D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09B41F3-31E7-4E2D-83AA-E74176BD28D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B669DB-EA60-40E2-AF94-AE92E31E250B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B669DB-EA60-40E2-AF94-AE92E31E250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B669DB-EA60-40E2-AF94-AE92E31E250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B669DB-EA60-40E2-AF94-AE92E31E250B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

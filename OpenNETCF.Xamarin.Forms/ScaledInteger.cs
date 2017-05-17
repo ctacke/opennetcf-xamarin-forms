@@ -22,7 +22,6 @@ namespace OpenNETCF
 
                 return Size;
             }
-
             var scaled = s_layoutService.GetScaledInt32(Size);
 
             return (int)scaled;
