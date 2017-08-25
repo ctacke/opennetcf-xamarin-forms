@@ -2,3 +2,4 @@ bin/
 obj/
 packages/Xamarin.Android.Support.Design.23.3.0/Xamarin.Android.Support.Design.23.3.0.nupkg
 packages/
+.vs/

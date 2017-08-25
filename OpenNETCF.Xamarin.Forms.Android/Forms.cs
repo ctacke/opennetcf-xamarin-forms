@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using OpenNETCF.IoC;
 using OpenNETCF.Platform.Droid;
+using Xamarin.Forms.Xaml;
 
 namespace OpenNETCF
 {

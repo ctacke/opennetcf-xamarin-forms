@@ -33,15 +33,15 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OpenNETCF.Extensions">
-      <HintPath>..\packages\com.opennetcf.extensions.pcl.1.0.17110.0\lib\Xamarin.iOS10\OpenNETCF.Extensions.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="OpenNETCF.Extensions, Version=1.0.17160.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\opennetcf-extensions-standard.1.0.17160.0\lib\netstandard1.1\OpenNETCF.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="OpenNETCF.IoC">
-      <HintPath>..\packages\com.opennetcf.ioc.pcl.1.0.17135.0\lib\Xamarin.iOS10\OpenNETCF.IoC.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="OpenNETCF.IoC, Version=1.0.17213.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\opennetcf-ioc-standard.1.0.17213\lib\netstandard1.3\OpenNETCF.IoC.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.Forms.Core">
